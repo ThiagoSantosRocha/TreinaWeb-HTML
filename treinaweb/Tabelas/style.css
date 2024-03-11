@@ -1,0 +1,44 @@
+table, td, th{
+    border: solid 1px black;
+    border-collapse: collapse;
+
+}
+
+
+td, th{
+    width: 150px;
+    /* text-align: center; */
+}
+
+/* th{
+    background-color: aquamarine;
+} */
+
+.tabela-3 th{
+    background-color: rgb(175, 253, 253);
+    font-size: 1.3rem;
+    width: calc(100%/7); /* -> divido a largura para 7 colunas*/
+}
+
+.tabela-3 td:hover {
+    background-color: rgb(219, 228, 228);
+    cursor: pointer;
+
+}
+
+.tabela-3 th:hover{
+    background-color: rgb(2, 223, 223);
+    cursor: pointer; /*Funciona como se fosse um link*/
+}
+
+.tabela-4 tr:first-child{    /* Pegando o Primerio filho ou melhor o primeiro elemento da tabela 4 que é table-row*/
+    background-color: rgb(187, 248, 126);
+}
+
+.tabela-5 {
+    text-align: left;
+}
+
+.tabela-5 tr:nth-child(even){
+    background-color: rgb(184, 222, 253);
+}

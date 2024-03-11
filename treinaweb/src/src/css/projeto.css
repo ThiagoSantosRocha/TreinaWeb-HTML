@@ -1,0 +1,35 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+
+/* HEADER */
+
+
+.header{
+    padding: 50px 0;
+ }
+ .logo{
+    display: block;
+    margin: 0 auto 50px auto;
+ }
+ .text-header{
+    text-align: center;
+ }
+ 
+ /* Campo de profes */
+
+ .campo-professores {
+    background-color: #f5f5f5;
+    padding: 100px 0;
+
+ }
+
+ .prof{
+    max-width: 350px;
+    margin: 0 auto 50px auto;
+ }
+
+ .img-prof{
+    width: 100%;
+ }

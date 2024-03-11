@@ -1,0 +1,27 @@
+
+
+
+/* Definindo variavies para uma cor principal */
+:root{
+    --cor-principal:black;
+
+}
+
+
+
+.secao-texto{
+    color:blueviolet;
+    border: solid 1px burlywood;
+    font-weight: bold;
+    text-align: center;
+}
+p{
+/*    
+   Adicionando a cor na variavel */
+    color: var(--cor-principal);
+    border: inherit;
+}
+
+h2{
+    border: inherit;
+}

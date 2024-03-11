@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tabelas</title>
+</head>
+<body>
+    <h1> Trabalhando com Tabelas </h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Maria</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>14</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td>29</td>
+            </tr>
+        </tfoot>
+    </table>
+    <br>
+    <h2>Exemplo segunda tabela</h2>
+    <table>
+        <tr>
+            <th>Nome</th>
+            <td>José</td>
+            <td>Marcos</td>
+            <td>Ana</td>
+        </tr>
+        
+        <tr>
+            <th>Idade</th>
+            <td>20</td>
+            <td>15</td>
+            <td>30</td>
+        </tr>
+        <tfoot>
+            <tr>
+               <th>Total idade</th>  <!-- como faço mesclada -->
+            </tr>
+            
+        </tfoot>
+               
+    </table>
+
+    <br>
+    <h2>Exemplo Terceira tabela Colspan</h2>
+    <h3>Dias do Mes</h3>
+    <table class="tabela-3">
+        <thead>
+            <tr>
+                <th colspan="7">Fevereiro</th>
+            </tr>
+            <tr>
+                <th>Domingo</th>
+                <th>Segunda</th>
+                <th>Terça</th>
+                <th>Quarta</th>
+                <th>Quinta</th>
+                <th>Sexta</th>
+                <th>Sábado</th>
+            </tr>
+            
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+            </tr>
+            
+        </tbody>
+    </table>
+    <br>
+    <h2> Exemplo de Tabela com Rowspan</h2>
+    <table class="tabela-4">
+        <tr>
+            <th>Escola</th>
+            <td>TreinaWeb</td>
+            <td>AveMakers</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Telefone</th>
+            <td>99 99999</td>
+            <td>99 77777</td>
+        </tr>
+        <tr>
+            <td>99 66666</td>
+            <td>99 88888</td>
+        </tr>
+        
+    </table>
+    
+    <br>
+    <h2>Trabalhando com Colgroup</h2>
+    <table class="tabela-5">
+        <colgroup>
+            <!-- <col span="2" style="background-color: rgb(192, 147, 235);">
+            <col span="2" style="background-color: rgb(213, 243, 183);"> -->
+        </colgroup>
+        <thead>
+            <tr>
+                <td>Nome</td>
+                <td>Idade</td>
+                <td>Telefone</td>
+                <td>Endereço</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Joao</td>
+                <td>20</td>
+                <td>89 7777-7777</td>
+                <td>Rua A 80</td>
+            </tr>
+            <tr>
+                <td>Tomé</td>
+                <td>33</td>
+                <td>89 7777-7777</td>
+                <td>Rua A 80</td>
+            </tr>
+            <tr>
+                <td>Jose</td>
+                <td>35</td>
+                <td>89 7777-7777</td>
+                <td>Rua Y 80</td>
+            </tr>
+            <tr>
+                <td>Pedro</td>
+                <td>28</td>
+                <td>89 7777-7777</td>
+                <td>Rua C 80</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>29</td>
+                <td>89 7777-7777</td>
+                <td>Rua D 80</td>
+            </tr>
+        </tbody>
+
+    </table>
+</body>
+</html>
+
+<!-- 
+    tr = Table row - linha da tabela
+    td  = Table data cell - dados da celula da tabela
+    th = table head - cabeçlho da tabela
+    thead = table head - cabeçalho da tabela
+    tbody = table body - corpo da tabela
+    tfoot = table foot - rodapé da tabela
+ -->

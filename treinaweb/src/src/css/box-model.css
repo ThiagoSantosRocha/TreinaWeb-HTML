@@ -1,0 +1,21 @@
+
+.caixa{
+  background-color: rgb(17, 247, 197);
+  width: 200px;
+  height: 200px;
+  border: 2px dashed orange;
+  text-align: center;
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /*/display: inline-block*/
+}
+
+  .caixa2{
+    background-color: chocolate;
+    /* width: 200px;
+    height: 200px; */
+    display: inline-block;
+    padding: 20px;
+  }
+
